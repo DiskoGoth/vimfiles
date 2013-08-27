@@ -143,10 +143,6 @@ map <C-tab> :FufBuffer<CR>
 vmap <C-tab> <esc>:FufBuffer<CR>
 imap <C-tab> <esc>:FufBuffer<CR>
 
-map <C-w> :bd<CR>
-vmap <C-w> <esc>:bd<CR>
-imap <C-w> <esc>:bd<CR>
-
 map <F11> :NERDTreeToggle<cr>
 vmap <F11> <esc>:NERDTreeToggle<CR>
 imap <F11> <esc>:NERDTreeToggle<CR>

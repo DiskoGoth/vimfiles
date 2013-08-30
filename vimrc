@@ -77,7 +77,7 @@ set backspace=indent,eol,start
 " Make <Backspace> act as <Delete> in Visual mode?
 vmap <BS> x
 
-colorscheme mustangpp
+colorscheme mustangpp_op
 
 if has ("gui_running")
     "убираем меню и тулбар

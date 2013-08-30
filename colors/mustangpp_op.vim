@@ -24,8 +24,8 @@ endif
 " General colors
 "hi Cursor       guifg=NONE    guibg=#626262 gui=none ctermbg=241
 hi Cursor       guifg=#000000 guibg=#ffffff gui=none ctermbg=241
-hi Normal       guifg=#e2e2e5 guibg=#202020 gui=none ctermfg=253 ctermbg=234
-hi NonText      guifg=#202020 guibg=#202020 gui=none ctermfg=244 ctermbg=235
+hi Normal       guifg=#e2e2e5 guibg=#202020 gui=none ctermfg=253 ctermbg=none
+hi NonText      guifg=#202020 guibg=#202020 gui=none ctermfg=244 ctermbg=none
 hi LineNr       guifg=#454545 guibg=#252525 gui=none ctermfg=244 ctermbg=232
 hi StatusLine   guifg=#d3d3d5 guibg=#444444 gui=none ctermfg=253 ctermbg=238
 hi StatusLineNC guifg=#939395 guibg=#444444 gui=none ctermfg=246 ctermbg=238

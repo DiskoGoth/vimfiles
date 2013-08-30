@@ -10,7 +10,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "mustangpp"
+let colors_name = "mustangpp_op"
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -37,24 +37,29 @@ hi SpecialKey   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 hi Directory    guifg=#f92672 gui=none      ctermfg=148
 
 " Syntax highlighting
+hi Argument     ctermfg=yellow
 hi Comment    guifg=#808080 gui=none      ctermfg=244
 "hi Todo       guifg=#8f8f8f gui=none      ctermfg=245
-hi Boolean    guifg=#b1d631 gui=none      ctermfg=148
-hi String     guifg=#b1d631 gui=none      ctermfg=148
 hi Identifier guifg=#76c1da gui=none      ctermfg=148
-hi Function   guifg=#ffffff gui=bold      ctermfg=255
+hi Function   guifg=#ffffff gui=bold      ctermfg=12
 hi Type       guifg=#7e8aa2 gui=none      ctermfg=103
 hi Statement  guifg=#7e8aa2 gui=none      ctermfg=103
 hi Keyword    guifg=#76c1da gui=none      ctermfg=208
 hi Constant   guifg=#ff9800 gui=none      ctermfg=208
 hi Number     guifg=#ff9800 gui=none      ctermfg=208
 hi Special    guifg=#729fcf gui=none      ctermfg=208
+hi link String Argument
+hi link Boolean Argument
+hi link Number Argument
 hi PreProc    guifg=#faf4c6 gui=none      ctermfg=230
 "hi Todo       guifg=#000000 guibg=#e6ea50 gui=none
 hi Todo	      guibg=orangered guifg=white
 
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
+hi link javaScriptString Argument
+hi link javaScriptBoolean Argument
+hi link javaScriptNumber Argument
 
 " My personal (dark background) diff colours.
 hi DiffDelete guifg=#303030 guibg=#505050

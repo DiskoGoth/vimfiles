@@ -1,5 +1,5 @@
-filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
+filetype off                   " required!
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -116,11 +116,20 @@ imap <C-p> <esc>:FufFile **/<CR>
 
 "# - move lines
 nnoremap <C-j> :m .+1<CR>==
-nnoremap <C-k> :m .-2<CR>==
 inoremap <C-j> <Esc>:m .+1<CR>==gi
-inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
+
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-k> :m '<-2<CR>gv=gv
+
+nnoremap <C-h> <<_
+inoremap <C-h> <C-D>
+vnoremap <C-h> <gv
+
+nnoremap <C-l> >>_
+inoremap <C-l> <C-T>
+vnoremap <C-l> >gv
 
 " F2 - сохранить файл
 map <F2> :w<cr>

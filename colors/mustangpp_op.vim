@@ -43,7 +43,7 @@ hi Comment    guifg=#808080 gui=none      ctermfg=244
 hi Identifier guifg=#76c1da gui=none      ctermfg=148
 hi Function   guifg=#ffffff gui=bold      ctermfg=12
 hi Type       guifg=#7e8aa2 gui=none      ctermfg=103
-hi Statement  guifg=#7e8aa2 gui=none      ctermfg=103
+hi Statement  guifg=#7e8aa2 gui=none      ctermfg=green
 hi Keyword    guifg=#76c1da gui=none      ctermfg=208
 hi Constant   guifg=#ff9800 gui=none      ctermfg=208
 hi Number     guifg=#ff9800 gui=none      ctermfg=208

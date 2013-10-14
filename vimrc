@@ -114,10 +114,6 @@ map <C-p> :FufFile **/<CR>
 vmap <C-p> <esc>:FufFile **/<CR>
 imap <C-p> <esc>:FufFile **/<CR>
 
-map <C-P> :FufBuffer<CR>
-vmap <C-P> <esc>:FufBuffer<CR>
-imap <C-P> <esc>:FufBuffer<CR>
-
 "# - move lines
 nnoremap <C-j> :m .+1<CR>==
 inoremap <C-j> <Esc>:m .+1<CR>==gi

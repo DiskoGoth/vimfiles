@@ -13,6 +13,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'airblade/vim-rooter'
+Bundle 'gkz/vim-ls'
 " VimScripts
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -98,6 +99,16 @@ if has ("gui_running")
     set noguipty
     "подсветка текущей строки
     set cursorline
+
+    "fonts
+    if has("gui_gtk2")
+    	set guifont=Inconsolata\ 10
+    elseif has("gui_macvim")
+    	set guifont=Menlo\ Regular:h12
+    elseif has("gui_win32")
+    	set guifont=Consolas:h11:cANSI
+    endif
+
 endif
 
 set scrolljump=7

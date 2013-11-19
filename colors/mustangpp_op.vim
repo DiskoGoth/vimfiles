@@ -37,13 +37,13 @@ hi SpecialKey   guifg=#808080 guibg=#343434 gui=none ctermfg=darkgrey ctermbg=no
 hi Directory    guifg=#f92672 gui=none      ctermfg=148
 
 " Syntax highlighting
-hi Argument     ctermfg=yellow
+hi Argument   guifg=#EBD800 ctermfg=yellow
 hi Comment    guifg=#808080 gui=none      ctermfg=244
 "hi Todo       guifg=#8f8f8f gui=none      ctermfg=245
-hi Identifier guifg=#76c1da gui=none      ctermfg=148
-hi Function   guifg=#ffffff gui=bold      ctermfg=12
+hi Identifier guifg=#89D64D gui=bold      ctermfg=148
+hi Function   guifg=#5F80D3 gui=none      ctermfg=12
 hi Type       guifg=#7e8aa2 gui=none      ctermfg=103
-hi Statement  guifg=#7e8aa2 gui=none      ctermfg=green
+hi Statement  guifg=#66ab16 gui=none      ctermfg=green
 hi Keyword    guifg=#76c1da gui=none      ctermfg=208
 hi Constant   guifg=#ff9800 gui=none      ctermfg=208
 hi Number     guifg=#ff9800 gui=none      ctermfg=208

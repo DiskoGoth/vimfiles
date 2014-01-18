@@ -14,6 +14,8 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'airblade/vim-rooter'
 Bundle 'gkz/vim-ls'
+Bundle 'vim-scripts/VimClojure'
+
 " VimScripts
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -193,6 +195,9 @@ endif
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 
+let vimclojure#HighlightBultins=1
+let vimclojure#ParenRainbow=1
+
 set complete=""
 set complete+=.
 set complete+=k
@@ -201,5 +206,6 @@ set completeopt-=preview
 set completeopt+=longest
 
 autocmd FileType javascript set ts=2 sw=2 sts=2
+autocmd FileType ls set ts=2 sw=2 sts=2
 
 

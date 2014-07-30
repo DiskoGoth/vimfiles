@@ -1,28 +1,31 @@
-set rtp+=~/.vim/bundle/vundle/
+set nocompatible              " be iMproved, required
 filetype off                   " required!
-call vundle#rc()
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
-" My Bundles here:
+Plugin 'gmarik/vundle'
+" My Plugins here:
 "
 " original repos on github
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'airblade/vim-rooter'
-Bundle 'gkz/vim-ls'
-Bundle 'vim-scripts/VimClojure'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'airblade/vim-rooter'
+Plugin 'gkz/vim-ls'
+Plugin 'vim-scripts/VimClojure'
 
 " VimScripts
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
 " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+Plugin 'git://git.wincent.com/command-t.git'
  " ...
 
+call vundle#end()
 filetype plugin indent on     " required!
 
 set nocompatible                        "несовместимы с Vi

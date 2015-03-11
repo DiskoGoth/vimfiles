@@ -70,9 +70,12 @@ set listchars=tab:→→,trail:.
 " set fo+=cr
 
 " Enable mouse
+
 set mouse=a
 set mousemodel=popup
 
+set clipboard=exclude:.*
+set clipboard=unnamedplus
 
 set hidden
 set nu

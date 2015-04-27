@@ -212,6 +212,7 @@ set completeopt-=preview
 set completeopt+=longest
 
 autocmd FileType javascript set ts=2 sw=2 sts=2
+autocmd FileType less set syntax=scss
 autocmd FileType ls set ts=2 sw=2 sts=2
 
 

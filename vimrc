@@ -204,6 +204,10 @@ let g:syntastic_auto_loc_list=1
 let vimclojure#HighlightBultins=1
 let vimclojure#ParenRainbow=1
 
+let g:fuf_file_exclude = '\v\~$|\.(o|exe|dll|bak|orig|swp)$'
+\.'|(^|[/\\])\.(hg|git|bzr)($|[/\\])'
+\.'|(^|[/\\])(node_modules|libs|dist|build|web)[/\\]'
+
 set complete=""
 set complete+=.
 set complete+=k

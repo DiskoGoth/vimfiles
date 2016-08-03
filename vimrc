@@ -12,16 +12,17 @@ Plugin 'VundleVim/Vundle.vim'
 "
 " original repos on github
 Plugin 'scrooloose/syntastic'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'airblade/vim-rooter'
 Plugin 'gkz/vim-ls'
+
+Plugin 'yggdroot/indentline'
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'kien/ctrlp.vim'
 
 " VimScripts
 "Plugin 'L9'
 " Bundle 'FuzzyFinder'
-Plugin 'kien/ctrlp.vim'
 " non github repos
 "Plugin 'git://git.wincent.com/command-t.git'
 

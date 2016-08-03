@@ -1,31 +1,31 @@
 set nocompatible              " be iMproved, required
-filetype off                   " required!
+filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set the runtime path to include Vundle and initialize
+ set rtp+=~/.vim/bundle/Vundle.vim
+ call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Plugin 'gmarik/vundle'
-" My Plugins here:
+Plugin 'VundleVim/Vundle.vim'
+" My Bundles here:
 "
 " original repos on github
 Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'airblade/vim-rooter'
 Plugin 'gkz/vim-ls'
-Plugin 'vim-scripts/VimClojure'
+Plugin 'airblade/vim-gitgutter'
 
 " VimScripts
-Plugin 'L9'
-Plugin 'FuzzyFinder'
+"Plugin 'L9'
+" Bundle 'FuzzyFinder'
+Plugin 'kien/ctrlp.vim'
 " non github repos
-Plugin 'git://git.wincent.com/command-t.git'
- " ...
+"Plugin 'git://git.wincent.com/command-t.git'
 
-call vundle#end()
+call vundle#end()            " required
 filetype plugin indent on     " required!
 
 set nocompatible                        "несовместимы с Vi
@@ -215,8 +215,7 @@ set complete+=b
 set completeopt-=preview
 set completeopt+=longest
 
-autocmd FileType javascript set ts=2 sw=2 sts=2
-autocmd FileType less set syntax=scss
+autocmd FileType javascript :setlocal ts=2 sw=2 sts=2
 autocmd FileType ls set ts=2 sw=2 sts=2
 
 

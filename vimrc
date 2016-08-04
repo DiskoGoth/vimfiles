@@ -15,6 +15,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'airblade/vim-rooter'
 Plugin 'gkz/vim-ls'
 
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'yggdroot/indentline'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'airblade/vim-gitgutter'

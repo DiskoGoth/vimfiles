@@ -210,6 +210,8 @@ let g:fuf_file_exclude = '\v\~$|\.(o|exe|dll|bak|orig|swp)$'
 \.'|(^|[/\\])\.(hg|git|bzr)($|[/\\])'
 \.'|(^|[/\\])(node_modules|libs|dist|build|web)[/\\]'
 
+set rnu
+
 set complete=""
 set complete+=.
 set complete+=k
@@ -221,4 +223,4 @@ autocmd FileType javascript set ts=4 sw=4 sts=4
 autocmd FileType less set syntax=scss
 autocmd FileType ls set ts=2 sw=2 sts=2
 
-
+silent sball

@@ -77,7 +77,7 @@ set mouse=a
 set mousemodel=popup
 
 set clipboard=exclude:.*
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
 
 set hidden
 set nu
@@ -221,6 +221,7 @@ set completeopt+=longest
 
 autocmd FileType javascript set ts=4 sw=4 sts=4
 autocmd FileType less set syntax=scss
+autocmd FileType typescript :set syntax=javascript
 autocmd FileType ls set ts=2 sw=2 sts=2
 
-silent sball
+" silent sball
